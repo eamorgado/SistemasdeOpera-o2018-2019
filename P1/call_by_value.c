@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+//if it is by value, the values will only be altered in the function memmory
+//Once we leave it the actual values will never have been changed
     void swap(int n1, int n2) {
         int temp = n1;
         n1 = n2;
