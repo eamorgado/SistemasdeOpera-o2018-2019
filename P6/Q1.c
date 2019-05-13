@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
     fread(string, 1, fsize, fp);
     fclose(fp);
 
-string[fsize] = 0;
+    string[fsize] = 0;
     if (pipe(fd) < 0) {
         perror("pipe error");
         exit(EXIT_FAILURE);
